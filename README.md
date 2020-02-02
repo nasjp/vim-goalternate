@@ -18,11 +18,11 @@ Plug 'nasjp/vim-goalternate'
 
 ## To customize
 
-```
-autocmd Filetype go command! -bang A call s:goalternate#exec(<bang>0, 'edit')
-autocmd Filetype go command! -bang AV call s:goalternate#exec(<bang>0, 'vsplit')
-autocmd Filetype go command! -bang AS call s:goalternate#exec(<bang>0, 'split')
-autocmd Filetype go command! -bang AT call s:goalternate#exec(<bang>0, 'tabe')
+```viml
+autocmd Filetype go command! -bang A call goalternate#exec(<bang>0, 'edit')
+autocmd Filetype go command! -bang AV call goalternate#exec(<bang>0, 'vsplit')
+autocmd Filetype go command! -bang AS call goalternate#exec(<bang>0, 'split')
+autocmd Filetype go command! -bang AT call goalternate#exec(<bang>0, 'tabe')
 ```
 
 ## License
